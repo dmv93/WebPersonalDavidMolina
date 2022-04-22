@@ -1,12 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  /*background-image: url(/WebPersonalDavidMolina/img/8fa531bf-d080-4f7b-a557-7b95aceb002e.JPG);*/
 }
 
 header {
   background: url(/WebPersonalDavidMolina/img/photo.jpg);
-  width: auto;
   height: 125px;
 }
 
@@ -15,9 +13,7 @@ header {
   font-size: xx-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 125px;
-  
 }
-
 
 .lista a {
   color: antiquewhite;
@@ -26,12 +22,39 @@ header {
   text-align: justify;
 }
 
-.photo {
-    height: 625px;
-    float: left;
-    margin: auto;
-    padding: auto;
-    text-align: justify;
+.test {
+  display: grid;
+  /*grid-template-columns: repeat(2, 1fr);*/
+  grid-template-columns: max-content auto;
 }
 
+.photo {
+  height: auto;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
 
+#myself {
+  margin: 0;
+  background-color: blanchedalmond;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  height: 125px;
+}
+
+.copy {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
