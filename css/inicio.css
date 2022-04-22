@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url(/WebPersonalDavidMolina/img/8fa531bf-d080-4f7b-a557-7b95aceb002e.JPG);*/
+}
+
+header {
+  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  width: auto;
+  height: 125px;
+}
+
+.lista {
+  list-style: none;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 125px;
+  
+}
+
+
+.lista a {
+  color: antiquewhite;
+  align-content: center;
+  padding: 15px;
+  text-align: justify;
+}
+
+.photo {
+    height: 625px;
+    float: left;
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+}
+
+
