@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  height: 125px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.lista {
+  list-style: none;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 125px;
+}
+
+.lista a {
+  color: antiquewhite;
+  align-content: center;
+  padding: 15px;
+  text-align: justify;
+}
+
+.lista a:hover {
+  color: wheat;
+}
+.bodyGrid {
+  display: grid;
+  background-color: wheat;
+  grid-template-columns: auto auto;
+  grid-template-rows:auto auto auto;
+}
+
+.primeraFila {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.firstPhoto {
+  width: 575px;
+  height: 550px;
+}
+
+.textFirstPhoto {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundaFila {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1em;
+}
+
+.secondPhoto {
+  width: 600px;
+  height: 600px;
+}
+
+.textSecondPhoto {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terceraFila {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+
+}
+
+.thirdPhoto {
+  width: 700px;
+  height: 550px;
+}
+
+.thirdPhotoText {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  height: 125px;
+}
+
+.copy {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
