@@ -33,8 +33,9 @@ header {
 .contenedor {
   display: grid;
   grid-template-columns: 700px auto;
-  margin: 50px;
+  margin: 70px;
   font-size: x-large;
+  align-content: c;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -42,33 +43,85 @@ header {
   display: grid;
   align-content: center;
 }
-#nombre {
-  border: 200px;
-  line-height: 40px;
+
+.formtext {
+  font-size: xx-large;
+}
+
+#nombreform {
+  line-height: 50px;
+  margin-right: 120px;
+  margin-left: 0px;
 }
 
 #apellido1 {
-  line-height: 40px;
+  line-height: 45px;
+  margin-right: 50px;
+  margin-left: 0px;
 }
 
 #apellido2 {
-  line-height: 40px;
+  margin-right: 35px;
+  margin-left: 0px;
+  line-height: 50px;
 }
 
 #edad {
-  line-height: 40px;
+  margin-right: 155px;
+  margin-left: 0px;
+  line-height: 50px;
 }
 
 #correo {
-  line-height: 40px;
+  margin-right: 130px;
+  margin-left: 0px;
+  line-height: 50px;
 }
 
 #interes {
-  line-height: 40px;
+  margin-right: 115px;
+  margin-left: 0px;
+  line-height: 50px;
 }
 
-#test {
-  line-height: 40px;
+#telefono {
+  margin-right: 120px;
+  margin-left: 0px;
+  line-height: 50px;
+}
+
+#ciudad {
+  margin-right: 135px;
+  margin-left: 0px;
+  line-height: 50px;
+}
+
+#pais {
+  margin-right: 165px;
+  margin-left: 0px;
+  line-height: 50px;
+}
+
+#boton {
+  font-size:20px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#638cb5;
+  border:0px;
+  width:110px;
+  height:50px;
+}
+
+#botonLimpiar {
+  font-size:10px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#638cb5;
+  border:0px;
+  width:80px;
+  height:19px;
 }
 
 footer {
