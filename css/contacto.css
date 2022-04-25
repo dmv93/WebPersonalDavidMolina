@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  background-image: url(/WebPersonalDavidMolina/img/360_F_142712953_1XMycIzw6DswM6in91CnDYt3Ruk0c0QU.jpeg);
+  background-image: url(/img/360_F_142712953_1XMycIzw6DswM6in91CnDYt3Ruk0c0QU.jpeg);
 }
 
 header {
-  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  background: url(/img/photo.jpg);
   height: 125px;
   display: grid;
   grid-template-columns: auto;
@@ -30,15 +30,55 @@ header {
   color: wheat;
 }
 
+.contenedor {
+  display: grid;
+  grid-template-columns: 700px auto;
+  margin: 50px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.formcont {
+  display: grid;
+  align-content: center;
+}
+#nombre {
+  border: 200px;
+  line-height: 40px;
+}
+
+#apellido1 {
+  line-height: 40px;
+}
+
+#apellido2 {
+  line-height: 40px;
+}
+
+#edad {
+  line-height: 40px;
+}
+
+#correo {
+  line-height: 40px;
+}
+
+#interes {
+  line-height: 40px;
+}
+
+#test {
+  line-height: 40px;
+}
 
 footer {
-    background: url(/WebPersonalDavidMolina/img/photo.jpg);
-    height: 125px;
-  }
-  
-  .copy {
-    color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background: url(/img/photo.jpg);
+  height: 125px;
+}
+
+.copy {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

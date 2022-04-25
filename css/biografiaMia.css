@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  background: url(/img/photo.jpg);
   height: 125px;
   display: grid;
   grid-template-columns: auto;
@@ -99,7 +99,7 @@ header {
   align-items: center;
 }
 footer {
-  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  background: url(/img/photo.jpg);
   height: 125px;
 }
 

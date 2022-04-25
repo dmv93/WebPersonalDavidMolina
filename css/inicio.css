@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  background: url(/img/photo.jpg);
   height: 125px;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 footer {
-  background: url(/WebPersonalDavidMolina/img/photo.jpg);
+  background: url(/img/photo.jpg);
   height: 125px;
 }
 
