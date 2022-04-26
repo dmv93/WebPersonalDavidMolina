@@ -103,25 +103,25 @@ header {
 }
 
 #boton {
-  font-size:20px;
-  font-family:Verdana,Helvetica;
-  font-weight:bold;
-  color:white;
-  background:#638cb5;
-  border:0px;
-  width:110px;
-  height:50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica;
+  font-weight: bold;
+  color: white;
+  background: #638cb5;
+  border: 0px;
+  width: 110px;
+  height: 50px;
 }
 
 #botonLimpiar {
-  font-size:10px;
-  font-family:Verdana,Helvetica;
-  font-weight:bold;
-  color:white;
-  background:#638cb5;
-  border:0px;
-  width:80px;
-  height:19px;
+  font-size: 10px;
+  font-family: Verdana, Helvetica;
+  font-weight: bold;
+  color: white;
+  background: #638cb5;
+  border: 0px;
+  width: 80px;
+  height: 19px;
 }
 
 footer {
