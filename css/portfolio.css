@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  background-image: url(/img/360_F_142712953_1XMycIzw6DswM6in91CnDYt3Ruk0c0QU.jpeg);
+}
+
+header {
+  background: url(/img/photo.jpg);
+  height: 125px;
+}
+
+.lista {
+  list-style: none;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 125px;
+}
+
+.lista a {
+  color: antiquewhite;
+  align-content: center;
+  padding: 15px;
+  text-align: justify;
+}
+
+.lista a:hover {
+  color: wheat;
+}
+
+.cajaContenido{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left {
+    display: grid;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+footer {
+  background: url(/img/photo.jpg);
+  height: 125px;
+}
+
+.copy {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
