@@ -30,15 +30,13 @@ header {
 
 .test {
   display: grid;
-  /*grid-template-columns: repeat(2, 1fr);*/
   grid-template-columns: max-content auto;
 }
 
 .photo {
-  height: auto;
+  height: max-content;
   float: left;
   margin: 0;
-  padding: 0;
   text-align: justify;
 }
 
